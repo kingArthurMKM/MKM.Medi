@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqsood Meditations</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #6a5acd, #836fff);
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .text-section {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            line-height: 1.7;
+        }
+
+        .audio-list {
+            margin-top: 40px;
+        }
+
+        .audio-item {
+            background: white;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .audio-item h3 {
+            margin: 0 0 10px 0;
+            font-weight: 500;
+        }
+
+        audio {
+            width: 100%;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER TEXT1 -->
+    <header>
+        <h1>Meditations for calm mind</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- IMAGE1 -->
+        <div class="image-section">
+            <img src="image1.jpg" alt="Main Image">
+        </div>
+
+        <!-- TEXT2 -->
+        <div class="text-section">
+            <p>
+                This web page is for, where I can access my meditations anywhere anytime.
+            </p>
+        </div>
+
+        <!-- MP3 LIST -->
+        <div class="audio-list">
+
+            <div class="audio-item">
+                <h3>Audio Track 1</h3>
+                <audio controls>
+                    <source src="audio1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <h3>Audio Track 2</h3>
+                <audio controls>
+                    <source src="audio2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <h3>Audio Track 3</h3>
+                <audio controls>
+                    <source src="audio3.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
